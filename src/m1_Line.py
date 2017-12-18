@@ -658,7 +658,7 @@ class Line(object):
         if round(self.slope(),12) == round(line2.slope(),12):
             return True
         else:
-            return False
+            return Fals
 
     def reset(self):
         """
