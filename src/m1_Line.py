@@ -340,8 +340,7 @@ class Line(object):
         #        They include the Example in the above doc-string.
         # --------------------------------------------------------------
         self.num_clones += 1
-        return Line(self.start.clone(),self.end.clone())
-
+        return Line(self.start.clone(), self.end.clone())
 
     def reverse(self):
         """
@@ -419,7 +418,6 @@ class Line(object):
             return math.inf
         else:
             return (self.end.y-self.start.y)/(self.end.x-self.start.x)
-
 
     def length(self):
         """
@@ -655,7 +653,7 @@ class Line(object):
         # and (usually) adequate to distinguish numbers that really
         # are different from each other.
         ################################################################
-        if round(self.slope(),12) == round(line2.slope(),12):
+        if round(self.slope(), 12) == round(line2.slope(), 12):
             return True
         else:
             return False
