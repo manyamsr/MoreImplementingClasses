@@ -226,7 +226,7 @@ class Line(object):
         #        They include the Example in the above doc-string.
         # --------------------------------------------------------------
         self.initial_start = start
-        self.intital_end = end
+        self.initial_end = end
         self.start = start.clone()
         self.end = end.clone()
         self.num_clones = 0
@@ -697,7 +697,7 @@ class Line(object):
         #        They include the Example in the above doc-string.
         # --------------------------------------------------------------
         self.start = self.initial_start
-        self.end = self.intital_end
+        self.end = self.initial_end
 
 ########################################################################
 # The TEST functions for the  Line  class begin here.
